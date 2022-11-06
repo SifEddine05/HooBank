@@ -13,5 +13,5 @@ const ArrowUp = () => {
         </div>    
 );
 }
- 
+
 export default ArrowUp ;

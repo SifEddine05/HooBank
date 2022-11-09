@@ -2,18 +2,14 @@
 import Star from '../assets/Star.svg'
 import Sheild from '../assets/Shield.svg'
 import Send from '../assets/Send.svg'
-
+import Text from './textFiledBtn'
 const Busniess = ()=>{
 
     return (
         <div>
             <div className='h-5  sm:h-10 md:h-15 lg:h-20'></div>  
             <div className="flex justify-around items-center ">
-                <div className="flex flex-col justify-around items-start ml-4 md:ml-8 sm:ml-6 lg:ml-10 w-[50%] ">
-                    <h2 className=" text-[18px] sm:text-[28px] md:text-[38px] lg:text-[48px] text-[#FFFF] font-semiblod mt-2 md:mt-4 sm:mt-3 lg:mt-5">You do the business, <br/> we’ll handle the money.</h2>
-                    <p className="text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px] text-[#FFFF] opacity-75 mt-2 md:mt-4 sm:mt-3 lg:mt-5">With the right credit card, you can improve your financial life by <br/> building credit, earning rewards and saving money. But with <br/> hundreds of credit cards on the market.</p>
-                    <button className="rounded bg-[#33BBCF]  mt-2 md:mt-4 sm:mt-3 lg:mt-5  text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px]  w-[40px] sm:w-[80px] md:w-[120px] lg:w-[160px] h-[28px] sm:h-[38px] md:h-[48px] lg:h-[58px] drop-shadow-xl hover:text-white" >Get Started</button>
-                </div>
+               <Text text={'With the right credit card, you can improve your financial life by \n building credit, earning rewards and saving money. But with hundreds of credit cards on the market.'} title={'You do the business, we’ll handle the money.'} btnText={'Get Started'} />
                 <div className="flex flex-col justify-around items-start w-[35%]">
                     <div className="flex justify-around items-center ">
                         <div className="rounded-full bg-[#09977C] bg-opacity-25 w-[20px] md:w-[40px] sm:w-[30px] lg:w-[64px] h-[20px] md:h-[40px] sm:h-[30px] lg:h-[64px] ">

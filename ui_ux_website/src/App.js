@@ -1,6 +1,7 @@
 import NavBar from './pages /navBar';
 import Robot from './pages /robot';
 import Busniess from './pages /busniess';
+import Paypal from './pages /paypal'
 import './index.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     < NavBar />
     <Robot />
     <Busniess />
+    <Paypal />
   </div> 
 
   ) ;

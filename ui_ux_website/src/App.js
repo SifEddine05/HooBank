@@ -3,6 +3,7 @@ import Robot from './pages /robot';
 import Busniess from './pages /busniess';
 import Paypal from './pages /paypal'
 import Statistic from './pages /statistic'
+import Avis from './pages /avis'
 import './index.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Busniess />
     <Paypal />
     <Statistic />
+    <Avis />
   </div> 
 
   ) ;

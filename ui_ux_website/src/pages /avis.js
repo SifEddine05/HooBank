@@ -1,6 +1,13 @@
 import Comment from "./comment";
+import People1 from '../assets/people01.png'
+import People2 from '../assets/people02.png'
+import People3 from '../assets/people03.png'
+
 
 const Avis = () => {
+    const persons =[{Oui:true ,name:'Herman Jensen' ,text:'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.' ,job:'Founder & Leader' ,img:People1 } ,
+    {Oui:false ,name:'Steve Mark' ,text:'Money makes your life easier. If you are lucky to have it, you are lucky.' ,job:'Founder & Leader' ,img:People2 },
+    {Oui:false ,name:'Kenn Gallagher' ,text:'It is usually people in the money business, finance, and international trade that are really rich.' ,job:'Founder & Leader' ,img:People3 }]
     return (
     <div>
         <div className='h-5  sm:h-10 md:h-15 lg:h-20'></div> 
@@ -15,8 +22,12 @@ const Avis = () => {
         
         <div className='h-3  sm:h-5 md:h-8 lg:h-10'></div>
 
-        <div>
-            <Comment />
+        <div className=" flex justify-center ">
+            {persons.map((elem)=> {
+                   return( <Comment  name={elem.name} image={elem.img} job={elem.job}  text={elem.text} Oui={elem.Oui}  /> ) 
+            }
+             )}
+            
         </div>
         
         <div>

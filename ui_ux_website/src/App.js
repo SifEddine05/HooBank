@@ -4,6 +4,7 @@ import Busniess from './pages /busniess';
 import Paypal from './pages /paypal'
 import Statistic from './pages /statistic'
 import Avis from './pages /avis'
+import Footer from './pages /footer';
 import './index.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Paypal />
     <Statistic />
     <Avis />
+    <Footer />
   </div> 
 
   ) ;

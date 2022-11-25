@@ -2,6 +2,13 @@ import Comment from "./comment";
 import People1 from '../assets/people01.png'
 import People2 from '../assets/people02.png'
 import People3 from '../assets/people03.png'
+import Binance from '../assets/binance.png'
+import Airbnb from '../assets/airbnb.png'
+import CoinBase from '../assets/coinbase.png'
+import DropBox from '../assets/dropbox.png'
+
+
+
 
 
 const Avis = () => {
@@ -26,16 +33,24 @@ const Avis = () => {
             {persons.map((elem)=> {
                    return( <Comment  name={elem.name} image={elem.img} job={elem.job}  text={elem.text} Oui={elem.Oui}  /> ) 
             }
-             )}
-            
+             )} 
         </div>
-        
-        <div>
+        <div className='h-5  sm:h-10 md:h-15 lg:h-20'></div> 
 
+        <div className="flex justify-around ml-2 mr-2">
+            <img src={Airbnb} alt='airbnb' className="w-[10%]"/>
+            <img src={Binance} alt='binance' className='w-[10%]' />
+            <img src={CoinBase} alt='coinbox' className='w-[10%]' />
+            <img src={DropBox} alt='dropbox' className='w-[10%]' />
         </div>
-        
-        <div>
-
+        <div className='h-5  sm:h-10 md:h-15 lg:h-20'></div> 
+ 
+        <div className="flex justify-between lg:p-10 md:p-8 sm:p-6 p-4 rounded-lg bg-[#6D6D6D] bg-opacity-25 ml-[10%] mr-[10%] ">
+            <div >
+                <h2 className=" text-[18px] sm:text-[28px] md:text-[38px] lg:text-[48px] text-[#FFFF] font-semiblod mt-2 md:mt-4 sm:mt-3 lg:mt-5">Let’s try our service now!</h2>
+                <p className=" w-[65%] text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px] text-[#FFFF] opacity-75 mt-2 md:mt-4 sm:mt-3 lg:mt-5">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
+            </div> 
+            <button className="rounded-lg bg-[#33BBCF] self-center  mt-4 md:mt-8 sm:mt-6 lg:mt-10  text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px]  w-[40px] sm:w-[80px] md:w-[120px] lg:w-[160px] h-[28px] sm:h-[38px] md:h-[48px] lg:h-[58px] drop-shadow-xl hover:text-white" >Get Started</button>
         </div>
     </div>  );
 }

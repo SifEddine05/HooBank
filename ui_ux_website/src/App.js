@@ -1,10 +1,10 @@
-import NavBar from './pages /navBar';
-import Robot from './pages /robot';
-import Busniess from './pages /busniess';
-import Paypal from './pages /paypal'
-import Statistic from './pages /statistic'
-import Avis from './pages /avis'
-import Footer from './pages /footer';
+import NavBar from './Components/navBar';
+import Robot from './Components/robot';
+import Busniess from './Components/busniess';
+import Paypal from './Components/paypal'
+import Statistic from './Components/statistic'
+import Avis from './Components/avis'
+import Footer from './Components/footer';
 import './index.css';
 
 function App() {

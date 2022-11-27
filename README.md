@@ -1,7 +1,7 @@
 
 # Modern UI/UX website 
 
-This code repository for modern UI/UX design with ReactJs and Tailwind
+This code repository for modern UI/UX website with ReactJs and Tailwind
 
 ## Screenshots
 

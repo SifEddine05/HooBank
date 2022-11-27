@@ -9,7 +9,7 @@ This code repository for modern UI/UX design with ReactJs and Tailwind
 
 ## Demo
 
-Insert gif or link to demo
+link to demo : https://lucky-bombolone-4c5dcc.netlify.app/
 
 
 ## Installation

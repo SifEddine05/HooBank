@@ -24,7 +24,7 @@ Install project with npm
     
 ## Feedback
 
-If you have any feedback, please reach out to us at sellamisifeddine201@gmail.com
+If you have any feedback, please reach out to us at ks_sellami@esi.dz
 
 
 ## 🚀 About Me

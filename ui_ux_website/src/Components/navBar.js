@@ -29,10 +29,10 @@ const handlClick =()=>{
                 <li className='  mr-[10%] flex items-center'><a href='#Solution' className='no-underline text-white hover:text-[#33BBCF]'>Solution</a></li>
             </ul>
             {style && <ul className=' block m-auto sm:hidden '>
-                <li className=' hover:bg-white hover:bg-opacity-25 ' ><a href='#home' className='no-underline ml-[50%] text-white hover:text-[#33BBCF]'>Home</a></li>
-                <li className=' hover:bg-white hover:bg-opacity-25'><a href='#AboutUs' className='no-underline ml-[50%] text-white hover:text-[#33BBCF]'>AboutUs</a></li>
-                <li className='  hover:bg-white hover:bg-opacity-25' ><a href='#Features' className='no-underline  ml-[50%] text-white hover:text-[#33BBCF]'>Features</a></li>
-                <li className='   hover:bg-white hover:bg-opacity-25'><a href='#Solution' className='no-underline  ml-[50%] text-white hover:text-[#33BBCF]'>Solution</a></li>
+                <li className=' hover:bg-white hover:bg-opacity-25 mt-3' ><a href='#home' className='no-underline ml-[50%] text-white hover:text-[#33BBCF]'>Home</a></li>
+                <li className=' hover:bg-white hover:bg-opacity-25 mt-3'><a href='#AboutUs' className='no-underline ml-[50%] mt-3 text-white hover:text-[#33BBCF]'>AboutUs</a></li>
+                <li className='  hover:bg-white hover:bg-opacity-25 mt-3' ><a href='#Features' className='no-underline mt-3  ml-[50%] text-white hover:text-[#33BBCF]'>Features</a></li>
+                <li className='   hover:bg-white hover:bg-opacity-25 mt-3'><a href='#Solution' className='no-underline  ml-[50%] text-white hover:text-[#33BBCF]'>Solution</a></li>
             </ul>}
         </nav>
          

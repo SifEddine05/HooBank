@@ -11,7 +11,7 @@ const Busniess = ()=>{
             <div className="flex justify-around items-center ">
                <Text text={'With the right credit card, you can improve your financial life by \n building credit, earning rewards and saving money. But with hundreds of credit cards on the market.'} title={'You do the business, we’ll handle the money.'} btnText={'Get Started'} />
                 <div className="flex flex-col justify-around items-start w-[35%]">
-                    <div className="flex justify-around items-center ">
+                    <div className="flex justify-around items-center   mt-4 md:mt-8 sm:mt-6 lg:mt-10 hover:bg-[#42475B] rounded-lg  bg-opacity-75  h-30px sm:h-[60px] md:h-[80px] lg:h-[100px]">
                         <div className="rounded-full bg-[#09977C] bg-opacity-25 w-[20px] md:w-[40px] sm:w-[30px] lg:w-[64px] h-[20px] md:h-[40px] sm:h-[30px] lg:h-[64px] ">
                             <img src={Star} alt="star img" className=' w-[50%] h-[50%] m-[25%]'/>   
                         </div>
@@ -25,7 +25,7 @@ const Busniess = ()=>{
                         </div>
                     </div>
 
-                    <div className="flex justify-around items-center  mt-4 md:mt-8 sm:mt-6 lg:mt-10 bg-[#42475B] rounded-lg  bg-opacity-75  h-30px sm:h-[60px] md:h-[80px] lg:h-[100px]">
+                    <div className="flex justify-around items-center  mt-4 md:mt-8 sm:mt-6 lg:mt-10 hover:bg-[#42475B] rounded-lg  bg-opacity-75  h-30px sm:h-[60px] md:h-[80px] lg:h-[100px]">
                         <div className="rounded-full bg-[#09977C] bg-opacity-25  w-[20px] md:w-[40px] sm:w-[30px] lg:w-[64px] h-[20px] md:h-[40px] sm:h-[30px] lg:h-[64px]  ml-1 drop-shadow-[0_20px_100px_[#42475B]">
                           <img src={Sheild} alt="star img" className=' w-[50%] h-[50%] m-[25%] '/>
                         </div>
@@ -38,7 +38,7 @@ const Busniess = ()=>{
                         </div>
                     </div>
 
-                    <div className="flex justify-around items-center mt-4 md:mt-8 sm:mt-6 lg:mt-10 ">
+                    <div className="flex justify-around items-center   mt-4 md:mt-8 sm:mt-6 lg:mt-10 hover:bg-[#42475B] rounded-lg  bg-opacity-75  h-30px sm:h-[60px] md:h-[80px] lg:h-[100px]">
                         <div className="rounded-full bg-[#09977C] bg-opacity-25 w-[20px] md:w-[40px] sm:w-[30px] lg:w-[64px] h-[20px] md:h-[40px] sm:h-[30px] lg:h-[64px] ">
                           <img src={Send} alt="star img" className=' w-[50%] h-[50%] m-[25%]'/>
                         </div>

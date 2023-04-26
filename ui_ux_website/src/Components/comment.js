@@ -1,11 +1,11 @@
 import Quotes from '../assets/quotes.svg'
 import People1 from '../assets/people01.png'
 const Comment = ({name,image,job,text,Oui}) => {
-    const style1='w-[20%]   rounded-lg mx-[5%] bg-[#6D6D6D] bg-opacity-25'
+    const style1='w-[20%]   rounded-lg mx-[5%] hover:bg-[#6D6D6D] hover:bg-opacity-25'
     const style2='w-[20%]   rounded-lg mx-[5%] '
     return ( 
-    <div className={ Oui && style1 || (style2)}>
-       <div className='lg:p-4 md:p-3 sm:p-2 p-1'>
+    <div className={style1}>
+       <div className='lg:p-4 md:p-3 p-2 '>
             <img src={Quotes} alt="quotes" className= "lg:w-[40px] md:w-[30px] sm:w-[20px] w-[10px] md:pt-4 sm:pt-3 pt-2 lg:pt-5" />
             <p className='text-[#FFFF] text-[6px] sm:text-[10px] md:text-[14px] lg:text-[18px] opacity-90 md:mt-4 sm:mt-3 mt-2 lg:mt-5'>{text}</p>
         

@@ -50,7 +50,7 @@ const Avis = () => {
                 <h2 className=" text-[18px] sm:text-[28px] md:text-[38px] lg:text-[48px] text-[#FFFF] font-semiblod mt-2 md:mt-4 sm:mt-3 lg:mt-5">Let’s try our service now!</h2>
                 <p className=" w-[65%] text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px] text-[#FFFF] opacity-75 mt-2 md:mt-4 sm:mt-3 lg:mt-5">Everything you need to accept card payments and grow your business anywhere on the planet.</p>
             </div> 
-            <button className="rounded-lg bg-[#33BBCF] self-center  mt-4 md:mt-8 sm:mt-6 lg:mt-10  text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px]  w-[40px] sm:w-[80px] md:w-[120px] lg:w-[160px] h-[28px] sm:h-[38px] md:h-[48px] lg:h-[58px] drop-shadow-xl hover:text-white" >Get Started</button>
+            <button className=" px-2 rounded-lg bg-[#33BBCF] self-center  mt-4 md:mt-8 sm:mt-6 lg:mt-10  text-[8px] sm:text-[10px] md:text-[14px] lg:text-[18px]  w-[40px] sm:w-[80px] md:w-[120px] lg:w-[160px] h-[28px] sm:h-[38px] md:h-[48px] lg:h-[58px] drop-shadow-xl hover:text-white" >Get Started</button>
         </div>
     </div>  );
 }
